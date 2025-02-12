@@ -1,0 +1,15 @@
+{
+  "name": "rest-api-node-postgresql",
+  "version": "1.0.0",
+  "description": "My first rest api project using Node.js and PostgreSql",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Bitzen Tech",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "pg": "^8.13.2"
+  }
+}
