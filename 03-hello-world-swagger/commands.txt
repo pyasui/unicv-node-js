@@ -1,0 +1,11 @@
+-- install express
+npm install express
+
+-- install pg connections & tools
+npm install sequelize pg pg-hstore
+npm install sequelize-cli -g
+npx sequelize-cli init
+
+
+-- install swagger
+npm install swagger-ui-express swagger-jsdoc
