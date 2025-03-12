@@ -11,9 +11,12 @@ app.use(express.json());
 
 // importar controllers
 const userRoutes = require('./routes/user-routes');
+const productRoutes = require('./routes/product-routes');
 
 // routes
 app.use('/users', userRoutes);
+app.use('/products', productRoutes);
+
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 app.listen(port, () => {
