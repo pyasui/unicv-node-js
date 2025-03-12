@@ -38,7 +38,13 @@ module.exports = (sequelize, DataTypes) => {
             },
         }, {
             sequelize,
-            modelName: 'User'
+            modelName: 'User',
+            tableName: 'User',
+            hooks: {
+                beforeUpdate: (obj, options) => {
+                    obj.updatedAt = new Date();
+                }
+            }
         });
 
         return User;
