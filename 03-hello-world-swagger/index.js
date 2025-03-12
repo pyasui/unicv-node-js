@@ -14,7 +14,6 @@ const userRoutes = require('./routes/user-routes');
 
 // routes
 app.use('/users', userRoutes);
-console.log(swaggerDocument);
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 app.listen(port, () => {
