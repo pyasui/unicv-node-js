@@ -18,7 +18,6 @@ exports.create = async (req, res) => {
   }
 };
 
-
 exports.get = async (req, res) => {
   try {
     const users = await User.findAll();
