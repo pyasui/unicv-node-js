@@ -1,10 +1,14 @@
 const express = require('express');
+const swaggerSetup = require('./swagger');
+const cors = require('cors');
 
 const app = express();
 const port = 3001;
 
-/* Middlewares */
+// middlewares
 app.use(express.json());
+app.use(cors());
+swaggerSetup(app);
 
 // importar controllers
 const userRoutes = require('./routes/user-routes');

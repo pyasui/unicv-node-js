@@ -8,5 +8,8 @@ npx sequelize-cli init
 
 
 -- install swagger
-npm install --save-dev swagger-autogen
-npm install express swagger-ui-express body-parser
+npm install express swagger-ui-express swagger-jsdoc
+
+-- cors
+npm install cors
+

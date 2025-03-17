@@ -9,3 +9,11 @@ router.put('/:id', userController.update);
 router.delete('/:id', userController.delete);
 
 module.exports = router;
+
+// Swagger
+/**
+ * @swagger
+ * tags:
+ *   name: User
+ *   description: User management operations
+ */
