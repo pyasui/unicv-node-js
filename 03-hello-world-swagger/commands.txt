@@ -13,3 +13,5 @@ npm install express swagger-ui-express swagger-jsdoc
 -- cors
 npm install cors
 
+-- Jwt
+npm install express jsonwebtoken dotenv bcryptjs
