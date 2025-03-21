@@ -3,3 +3,4 @@
 /02-hello-world-arch/node_modules
 /03-hello-world-swagger/node_modules
 03-hello-world-swagger/.env
+/04-hello-world-typeorm/node_modules
