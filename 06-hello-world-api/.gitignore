@@ -1,0 +1,37 @@
+# Dependências
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+
+# Diretórios do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Cache
+.cache/
+.nyc_output/
+coverage/
+
+# Build
+dist/
+build/
+tmp/
+temp/
+
+# IDEs
+.vscode/
+.idea/
+
+# Testes
+jest-coverage/
