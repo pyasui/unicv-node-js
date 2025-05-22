@@ -1,6 +1,5 @@
 const api = require("./externalApiService");
 
-// Buscar todos os usuários
 async function getCustomers(limit, offset, name) {
   try {
     const response = await api.get('/v3/customers', {
