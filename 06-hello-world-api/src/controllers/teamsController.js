@@ -5,3 +5,8 @@ exports.getTeamById = async (req, res) => {
     const team = await service.getTeamById(id);
     res.json(team);
 };
+
+exports.getTeams = async (req, res) => {
+    const team = await service.getTeams();
+    res.json(team);
+};

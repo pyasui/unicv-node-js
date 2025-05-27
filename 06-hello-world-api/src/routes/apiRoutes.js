@@ -1,10 +1,9 @@
 const express = require('express');
 const router = express.Router();
-const userController = require('../controllers/customerController');
 const teamsController = require('../controllers/teamsController');
 
 // customers
-router.get('/customers', userController.listCustomers);
 router.get('/teams/:id', teamsController.getTeamById);
+router.get('/teams', teamsController.getTeams);
 
 module.exports = router;
